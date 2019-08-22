@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset ="utf-8"/>
+    <title>fullpage 연습</title>
+    <link rel="stylesheet" type="text/css" href="css/fullpage.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="../fonts/fonts.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="js/fullpage.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    
+       <script type="text/javascript">
+        $(document).ready(function(){
+           $('#fullpage').fullpage({
+               menu:'#menu',
+               anchors:['1','2','3','4','5','6','7'],
+               autoScrolling:true,
+               scrollHorizontally:true,
+               navigation: true,
+               navigationTooltips : ['MAIN','ABOUT ME','SKILL','WORK','DESIGN','CONTACT','FOOTER'],
+               sectionsColor : ['black', 'white','black','white','black','white','black'],
+                paddingTop:'104px'
+            });
+            
+        })
+    </script>
+    <style type="text/css">
+        input:focus{
+            outline: none ;
+        }
+        .rightMenu{
+				width: 200px;
+				background: #000;
+				position: absolute;
+				top: 0;
+				right:0;
+				bottom: 0;
+				height: 100%;
+				padding: 30px;
+				box-sizing: border-box;
+			}
+			.rightMenu li{
+				list-style: none;
+				line-height: 35px;
+				
+			}
+			.rightMenu li a{
+				color: #fff;
+				text-decoration: none;
+			}
+			.closeBtn{
+				text-align: right;
+			}
+			.closeBtn i{
+				color: #fff;
+				font-size: 25px;
+			}
+    </style>
+</head>
+<body>
+<header id="header">
+   <div class="inner">
+    <h1><a href="#"><img src="images/LOGO.png"></a></h1>
+    <ul id="menu">
+            <li data-menuanchor="firstPage"     class="active"><a href="#firstPage"><img src="images/main%20menu%20bar.jpg"></a></li>
+</ul>
+</div>
+ </header>
+      <div id="fullpage">
+            <div class="section " id="section0">
+                <div class="regular">
+               <div class="inner">
+            </div>
+            <div class="mainImg1">
+                <img src="images/Main_Img01.png" alt="메인이미지1">
+                </div>
+                <div class="mainImg2">
+                <img src="images/Main_Img02.png" alt="메인이미지2">
+                </div>
+                <div class="mainTextImg1">
+                    <img src="images/main_Text_01.png" alt="메인텍스트1">
+                </div>
+                <div class="mainTextImg2">
+                    <img src="images/main_Text_02.png" alt="메인텍스트2">
+                </div>
+                <div class="mainText01">
+                    <h1>WEB<br>
+                        PORT
+                    </h1>
+                </div>
+                <div class="mainText02">
+                    <h1>DESIGN<br>
+                        FOLIO
+                    </h1>
+                </div>
+            </div>
+          </div>
+    <div class="section " id="section1">
+            <div class="intro">
+                   <div class="inner">
+                <div class="aboutmeIcon">
+                    </div>
+                    <div class="iconText">
+                        <h3>ABOUTME</h3>
+                        </div>
+                        <div class="aboutmePicture">
+                        </div>
+
+                </div>
+                <div class="pictureText">
+                            <h3>스토리를 만드는 웹디자이너 <span>김민선</span></h3>
+                            <p>조용하면서도 쾌활한 성격을  지닌 저는 그 어떠한 일이든<br> 
+                            빠르게 일 처리를 하며 홈페이지에 스토리를 담아낼 자신이<br>
+                            있습니다.  비록 지금은 햇병아리 웹디자이너지만 언젠가는<br>
+                            전문가로 거듭나 저처럼 서투른 신입들을 잘 돌보리라<br> 
+                            믿습니다.</p>
+                            </div>
+            </div>
+        </div>
+        <div class="section" id="section02">
+            <div class="intro">
+                <div class="inner">
+               <div class="iconText2">
+                        <h3>SKILL</h3>
+                <div class="skillIcon">
+                    </div>
+                     </div>
+                    <div class="programIcon">
+                    <div class="inner">
+                    <ul>
+                            <li><img src="images/skill_illustrator.png"><p>Illustrator</p>
+                            </li>
+                          
+                            <li><img src="images/skill_photoshop.png">
+                            <p>Photoshop</p>
+                            </li>
+                           
+                            <li><img src="images/skill-html5.jpg">
+                            <p>HTML5</p>
+                    </li>
+                        </ul>  
+                         <ul>
+                            <li><img src="images/skill-CSS.jpg">
+                            <p>CSS</p>
+                            </li>
+                            
+                            <li><img src="images/skiill-javascript.jpg">
+                            <p>javascript</p>
+                            </li>
+                             
+                            <li><img src="images/skill_JQuery.png">
+                            <p>JQuery</p>
+                             </li>
+                        </ul>
+                              </div>
+                           </div>
+                      </div>
+                    </div>
+                </div>
+        <div class="section" id="section03">
+            <div class="intro">
+                <div class="inner">
+                <div class="workIcon">
+                   </div>
+                   <div class="iconText3">
+                       <h3>WORK</h3>
+                       </div>
+                       <div class="comIcon">
+                           <div class="inner">
+                               <img src="images/skill_mac.png" alt="컴퓨터이미지">
+                               </div>
+                           </div>
+                           <div class="comBtn">
+                               <div class="prevBtn"><a href="#">왼쪽버튼</a></div>
+                                <div class="nextBtn"><a href="#">오른쪽버튼</a></div>
+                            </div>
+                            <div class="menuBtn">
+                                <div class="inner cf">
+                                    <div class="allBtn"><a href="#"><img src="images/work-Btn1.jpg" alt="all버튼"></a>
+                                </div>
+                                   <div class="webBtn"><a href="#"><img src="images/work-btn2.jpg" alt="WEB버튼"></a>
+                                </div>
+                                   <div class="mobileBtn"><a href="#"><img src="images/work-btn3.jpg" alt="mobile버튼"></a>
+                                </div>
+                                    </div>
+                                </div>
+                        </div>
+                </div>
+            </div>
+         <div class="section" id="section04">
+            <div class="intro">
+        <div class="inner">
+                <div class="designIcon">
+                    <div class="iconText4">
+                    <h3>DESIGN</h3>
+                </div>
+            </div>
+            <div class= "designText">
+                        <p>단순함은 복잡한 것보다 어려울 수 있습니다.<br>
+
+                        단순해지려면 당신은 생각을 명쾌하게 하기 위해 <br> 열심히 노력해야 합니다.<br>
+
+                        하지만 결국 그럴 가치가 있지요.<br>
+
+                        일단 당신이 그 단순함에 도달하면<br> 당신이 산을 옮길 수 있기 때문입니다.<br><br>
+                           <span>&#45; Steve Jobs</span>
+                        </p>
+                </div>
+                <ul class="designBtn">
+                   <div class="inner">
+                    <li class="btn1_1"><a href="#">1</a></li>
+                    <li class="btn1_2"><a href="#">2</a></li>
+                    <li class="btn1_3"><a href="#">3</a></li>
+                    <li class="btn1_4"><a href="#">4</a></li>
+                    <li class="btn1_5"><a href="#">5</a></li>
+                    </div>
+                </ul>
+                <div class="designImg">
+                    <img src="images/Design-photo1.jpg" alt="이미지1">
+                </div>
+            </div>
+             </div>
+          </div>
+          <div class="section" id="section05">
+            <div class="intro">
+                <div class="inner">
+                   <div class="contactIcon">
+                    <div class="iconText5">
+                    <h3>CONTACT</h3>
+                </div>
+            </div>
+               <div class="informationTitle">
+                    <h4>INFORMATION</h4>
+                </div>
+                    <div class="informationText">
+                    <p>궁금하신 점을 메세지로 남겨주시면,<br> 
+                    확인 후 빠른 시간 안에 답변 드리겠습니다.</p>
+                    </div>
+                    <input type="text" name="email" id="email" size="70" placeholder="YOUR EMAIL ADRESS" style="border: 0px; border-bottom: #000 1px solid;">
+                    <br/><br/>
+                    <input type="text" name="message" id="message" size="70" placeholder="YOUR MESSAGE" style="border: 0px; border-bottom: #000 1px solid;">
+                    <div class="sendBtn">
+                        <a href="#"><img src="images/contact-send.jpg" alt="보내기버튼"></a>
+                    </div>
+                </div>
+             </div>
+          </div>
+            
+        <footer class="section fp-auto-height" id="section07">
+           <div class="inner cf">
+            <div class="footerTitle">
+                <h4>KIM MIN SEON
+                 PORTFOLIO</h4>
+           </div>
+           <div class="copyright">
+               © 2019. kim minseon. All rights reserved.
+           </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

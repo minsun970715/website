@@ -1,0 +1,474 @@
+@charset "utf-8";
+
+body{
+    font-family:'NotoSans',sans-serif;
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+.cf:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.inner{
+    width: 1200px;
+    margin:0 auto;
+}
+
+#fp-nav ul li a.active span, #fp-nav ul li:hover a.active span, .fp=slidesNav ul li a span{
+    background-color:rgba(0,0,0,0);
+    border:1px solid #333;
+    box-sizing:border-box;
+}
+#header{
+    width:100%;
+    z-index:10;
+    text-align:center;
+    font-size:15px;
+    background:black;
+}
+#header h1{
+    width:120px;
+    height:50px;
+    text-align:center;
+    padding:30px 0;
+    margin:0 auto;
+}
+#header h1 Img{
+    width:100%;
+}
+#menu{
+    text-align:center;
+    font-size:0;
+    text-align:right;
+     position:absolute;
+    top:20px;
+    right:300px;
+     
+    
+}
+#menu li{
+    font-size:18px;
+     display:inline-block;
+     margin-top:20px;
+   
+}
+.fullpage{}
+.section{
+    text-align: center;
+}
+.regular{
+  position:absolute;
+    right:55%;
+    margin-left:-426px;
+    top:30px;
+    width:548px;
+    height:826px;
+}
+
+/*mainText0*/
+#section0{}
+.mainImg1{}
+.mainImg1 img{
+    position: absolute;
+    top: 13%;
+    left: 9%;
+    display: block;
+}
+.mainImg2{}
+.mainImg2 img{
+    position: absolute;
+    top: 13%;
+    left: 112%;
+    display: block;
+}
+.mainTextImg1{}
+.mainTextImg1 img{
+    position: absolute;
+    top: 28%;
+    left: 0;
+}
+.mainTextImg2{}
+.mainTextImg2 img{
+    position: absolute;
+    top: 81%;
+    left: 71px;
+}
+.mainText01{
+    color:#000;
+    text-align:left;
+    font-size:70px;
+    font-weight:700;
+}
+.mainText01 h1{
+    position: absolute;
+    top: 10%;
+    left: 33%;
+}
+.mainText02{
+    color:#fff;
+    text-align:left;
+    font-size:70px;
+    font-weight:700;
+}
+.mainText02 h1{
+    position: absolute;
+    top: 10%;
+    left: 117%;
+}
+.mainText02 span{
+    font-size:90px;
+}
+/*section01*/
+#section01{}
+.aboutmeIcon{
+    width:56px;
+    height:61px;
+    background:url(../images/Menu_icon-black.png) no-repeat left center;
+    position: absolute;
+    top:57px;
+    left:248px;
+}
+.iconText{
+    text-align:left;
+    color:#000;
+}
+.iconText h3{
+    font-size:30px;
+    font-weight:600;
+    position: absolute;
+    top: 36px;
+    left: 291px;
+}
+.aboutmePicture{
+    width:517px;
+    height:610px;
+    background:url(../images/about-me-Img.png) no-repeat;
+    position: absolute;
+    top: 19%;
+    left: 17%;
+}
+.pictureText{
+    text-align:left;    
+    position:absolute;
+    top:36%;
+    right:19%;
+    color:#000;
+}
+.pictureText h3{
+    font-size:30px;
+    font-weight:400;
+}
+.pictureText span{
+    font-size:35px;
+    font-weight: 600;
+}
+.pictureText p{
+    font-size:20px;
+    font-weight:200;
+}
+
+/*section02*/
+.skillIcon{
+    width:56px;
+    height:61px;
+    background:url(../images/menu_icon_white.png) no-repeat left center;
+    position: absolute;
+    top:70px;
+    left:265px;
+    line-height:3px;
+   
+}
+.iconText2{
+    text-align:left;
+    color:#fff;
+     
+}
+.iconText2 h3{
+    font-size:30px;
+    font-weight:600;
+    position:absolute;
+    top: 50px;
+    left: 310px;
+}
+.programIcon{}
+.programIcon ul{}
+.programIcon li{
+    width:120px;
+    height:200px;
+    display:inline-block;
+    vertical-align:middle;
+    margin: 70px;
+    padding: 10px 30px;
+    text-align:center;
+}
+.programIcon li:first-child{
+    margin-left:40px;
+}
+.programIcon li img{
+    width:100%;
+    display: block;
+}
+.programIcon li p{
+    font-size:25px;
+    padding-bottom:60px;
+    color:#fff;
+}
+
+/*section03*/
+.workIcon{
+    width:56px;
+    height:61px;
+    background:url(../images/Menu_icon-black.png) no-repeat left center;
+    position: absolute;
+    top:14px;
+    left:248px;
+    padding:45px;
+    line-height:61px;
+}
+.iconText3{}
+.iconText3 h3{
+    height:61px;
+    line-height:15px;
+    font-size:25px;
+    position: absolute;
+    top: 57px;
+    left: 291px;
+}
+.comIcon{}
+.comIcon img{
+    text-align: center;
+    position: absolute;
+    left: 36%;
+    bottom: 27%;
+}
+.comBtn{
+    display:block;
+}
+.prevBtn{
+    width:43px;
+    height:74px;
+    background:url(../images/work_arrow_prev.jpg) no-repeat;
+    text-indent:-9999px;
+    position: absolute;
+    top: 40%;
+    left: 24%;
+}
+.nextBtn{
+    width:37px;
+    height:84px;
+    background:url(../images/work_arrow_next.jpg) no-repeat;
+    text-indent:-9999px;
+    position: absolute;
+    top: 41%;
+    right: 23%;
+}
+.menuBtn{
+    float: left;
+    position:absolute;
+    bottom: 11%;
+    left: 20%; 
+}
+.allBtn{
+    display:inline-block;
+    vertical-align:middle;
+}
+.allBtn a{}
+.allBtn a img{
+    padding:30px 0;
+    margin:10px;
+}
+
+.webBtn{
+    display:inline-block;
+    vertical-align:middle;
+}
+.webBtn a{}
+.webBtn a img{
+     padding:30px 0;
+    margin:10px;
+}
+
+.mobileBtn{
+    display:inline-block;
+    vertical-align:middle;
+}
+.mobileBtn a{}
+.mobileBtn a img{
+     padding:30px 0;
+    margin:10px;
+}
+
+/*section04*/
+.designIcon{
+    width:56px;
+    height:61px;
+    background:url(../images/menu_icon_white.png) no-repeat left center;
+    position: absolute;
+    top:9%;
+    left:13%;
+    line-height:10px;
+   
+}
+.iconText4{
+    text-align:left;
+    color:#fff;
+     
+}
+.iconText4 h3{
+    font-size:25px;
+    font-weight:600;
+    position:absolute;
+    top:2%;
+    margin-left:45px;
+}
+.designText{
+    font-size:25px;
+    color:#fff;
+    text-align:left;
+}
+.designText p{
+    position: absolute;
+    top: 26%;
+    left: 21%
+}
+.designText span{
+    font-size:25px;
+    font-weight:600;
+}
+.designBtn{
+    font-size:25px;
+    font-weight:500;
+    position:absolute;
+    top:66%;
+    right:41%;
+}
+
+.btn1_1:hover a{
+    color:lightcoral;
+}
+.btn1_2:hover a{
+    color:lightcoral;
+}
+.btn1_3:hover a{
+    color:lightcoral;
+}
+.btn1_4:hover a{
+    color:lightcoral;
+}
+.btn1_5:hover a{
+    color:lightcoral;
+}
+.designBtn li{
+    display:inline-block;
+    vertical-align:middle;
+    padding:20px;
+}
+.designBtn li a{
+    display:block;
+}
+.designImg{}
+.designImg img{
+    position:absolute;
+    top:19%;
+    right:18%;
+}
+/*section05*/
+#section05{}
+.contactIcon{
+    width:56px;
+    height:61px;
+    background:url(../images/Menu_icon-black.png) no-repeat left center;
+    position: absolute;
+    margin:30px;
+    top: 30px;
+    left: 219px;
+    line-height:61px;
+    color:#000;
+}
+.iconText5{}
+.iconText5 h3{
+    height:61px;
+    line-height:15px;
+    font-size:25px;
+    position: absolute;
+    top: 0;
+    left: 79%;
+}
+.informationTitle{
+    font-size:40px;
+    text-align:center;
+    font-weight:500;
+    color:#000;
+}
+.informationTitle h4{
+    position:absolute;
+    top: 10%;
+    left: 41%;
+}
+.informationText{
+    font-size:15px;
+    text-align:center;
+    color:#000;
+}
+.informationText p{
+    position:absolute;
+    top: 22%;
+    right: 44%;
+}
+
+#email{
+    width:700px;
+    height:50px;
+    font-size:18px;
+    margin:20px;
+    position: absolute;
+    top: 33%;
+    right: 30%;
+}
+
+#message{
+    width:700px;
+    height:50px;
+    font-size:18px;
+    margin:20px;
+    position: absolute;
+    top: 43%;
+    right: 30%;
+}
+.sendBtn{
+    margin:20px;
+    position: absolute;
+    bottom: 28%;
+    left: 40%;
+}
+/*footer*/
+#section07{
+    padding-bottom:100px;
+    margin: -183px 0;
+}
+.footerTitle{
+    font-size:30px;
+    text-align:left;
+    color:#fff;
+}
+.footerTitle h4 {
+    font-size: 20px;
+    position: absolute;
+    top: 12%;
+    left: 13%;
+}
+.copyright{
+    font-size: 15px;
+    color: #fff;
+    position: absolute;
+    bottom: 64%;
+    right: 44%;
+}
